@@ -1,25 +1,19 @@
 
 public class main {
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
+
+
+
+
+    //Christian Laviolette
     public static void main(String[] args) {
         System.out.println("Hello, World!");
-        //Drew Johnsen
-        int x = 1, y = 2;
-        int result =  x * y;
-        System.out.println(result);
+        System.out.println(nick(4));
+    }
+
+    //Nick Lachcik
+    public static boolean nick(int n){
+        return n%2==0;
     }
 }
 
